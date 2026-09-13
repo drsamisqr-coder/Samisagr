@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">MasterCoder</string>
+    <string name="app_subtitle">AI Studio • المنصة البرمجية</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_assistant">المساعد</string>
+    <string name="nav_playground">بيئة التشغيل</string>
+    <string name="nav_snippets">مكتبة الأكواد</string>
+    <string name="nav_academy">الأكاديمية</string>
+
+    <!-- Language & Localization -->
+    <string name="language_switch">اللغة</string>
+    <string name="language_arabic">العربية (Arabic)</string>
+    <string name="language_english">English (الإنجليزية)</string>
+    <string name="language_dialog_title">اختر لغة التطبيق / Select App Language</string>
+
+    <!-- Settings -->
+    <string name="settings_title">إعدادات MasterCoder</string>
+    <string name="settings_desc">تكوين مفتاح Gemini API ونموذج الذكاء الاصطناعي الخاص بك:</string>
+    <string name="api_key_label">مفتاح Gemini API</string>
+    <string name="api_key_placeholder">AIzaSy...</string>
+    <string name="api_key_save">حفظ وتفعيل</string>
+    <string name="engine_info_title">معلومات المحرك:</string>
+    <string name="engine_info_details">• النموذج: gemini-3.5-flash\n• بيئة العمل: Kotlin Compose + Room DB\n• المحرك: بيئة تشغيل برمجية معزولة</string>
+    <string name="settings_saved">تم حفظ الإعدادات بنجاح</string>
+    <string name="close">إغلاق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+
+    <!-- Assistant Screen -->
+    <string name="mode_general">مطور شامل</string>
+    <string name="mode_debugger">صائد الأخطاء</string>
+    <string name="mode_explainer">شارح الأكواد</string>
+    <string name="mode_optimizer">تحسين الأداء</string>
+    <string name="mode_interview">المقابلات والخوارزميات</string>
+    <string name="quick_prompts_title">اقتراحات برمجية سريعة:</string>
+    <string name="chat_input_placeholder">اسأل MasterCoder أو الصق الكود...</string>
+    <string name="chat_ai_generating">المبرمج المحترف يكتب الحل البرمجي...</string>
+    <string name="chat_cleared">تم مسح المحادثة. ما الذي تود برمجته أو حله الآن؟</string>
+    <string name="chat_welcome">مرحباً بك في MasterCoder (المبرمج المحترف)!\nأنا مساعدك الهندسي لكتابة وتدقيق الأكواد، حل المشاكل، وشرح المعمارية البرمجية.</string>
+    <string name="copied_to_clipboard">تم نسخ الكود إلى الحافظة</string>
+    <string name="opened_in_playground">تم الانتقال إلى بيئة التشغيل</string>
+    <string name="saved_to_snippets">تم حفظ الكود في مكتبة الأكواد</string>
+    <string name="assistant_sender_title">المبرمج المحترف (MasterCoder)</string>
+
+    <!-- Playground Screen -->
+    <string name="tab_editor">محرر الكود</string>
+    <string name="tab_output">مخرجات التشغيل</string>
+    <string name="btn_execute">تشغيل الكود</string>
+    <string name="btn_ai_debug">صائد الأخطاء بالذكاء الاصطناعي</string>
+    <string name="btn_ai_explain">شرح تفصيلي للكود</string>
+    <string name="btn_ai_optimize">تحسين الأداء و Big-O</string>
+    <string name="console_output_title">سجل المخرجات (Console)</string>
+    <string name="html_preview_title">معاينة صفحة الويب المباشرة:</string>
+    <string name="execution_idle">اضغط على زر \'تشغيل الكود\' في الأسفل لرؤية النتائج.</string>
+    <string name="clear_code">مسح الكود</string>
+
+    <!-- Snippets Screen -->
+    <string name="snippets_search_hint">بحث في مكتبة الأكواد بالاسم أو الكود أو الوسم...</string>
+    <string name="snippets_empty">لا توجد أكواد محفوظة تطابق البحث</string>
+    <string name="filter_all">الكل</string>
+    <string name="add_snippet_title">إضافة كود جديد إلى المكتبة</string>
+    <string name="snippet_title_label">عنوان الكود</string>
+    <string name="snippet_lang_label">لغة البرمجة (Kotlin, Python, JS...)</string>
+    <string name="snippet_tags_label">الوسوم (مفصولة بفواصل)</string>
+    <string name="snippet_code_label">الكود المصدري</string>
+    <string name="snippet_save_btn">حفظ الكود</string>
+    <string name="snippet_saved_success">تم حفظ الكود في المكتبة بنجاح</string>
+
+    <!-- Academy Screen -->
+    <string name="rank_master">المبرمج الأسطوري (Master Coder 🏆)</string>
+    <string name="rank_staff">مهندس برمجيات رئيسي (Staff Engineer)</string>
+    <string name="rank_senior">مهندس برمجيات متقدم (Senior Dev)</string>
+    <string name="rank_mid">مطور متوسط (Mid-Level Dev)</string>
+    <string name="rank_junior">مطور مبتدئ (Junior Dev)</string>
+    <string name="xp_format">%1$d نقطة خبرة إجمالية XP</string>
+    <string name="streak_format">%1$d أيام متتالية</string>
+    <string name="challenges_completed_format">التحديات المنجزة: %1$d</string>
+    <string name="next_level_xp">المستوى القادم: 250 XP</string>
+    <string name="quiz_confirm_answer">تأكيد الإجابة</string>
+    <string name="quiz_next_challenge">التحدي التالي</string>
+    <string name="quiz_correct_title">إجابة صحيحة! أحسنت 🎯</string>
+    <string name="quiz_incorrect_title">إجابة غير دقيقة! راجع التوضيح 👇</string>
+
+    <!-- Offline & Free Mode -->
+    <string name="badge_free_offline">مجاني 100% • يعمل بدون إنترنت</string>
+    <string name="offline_mode_title">وضع عدم الاتصال</string>
+    <string name="offline_active_desc">وضع عدم الاتصال مفعّل (استجابة فورية 0ms بدون إنترنت)</string>
+    <string name="online_active_desc">الوضع المتصل (ذكاء اصطناعي + محرك محلي احتياطي)</string>
+    <string name="toggle_offline_btn">وضع أوفلاين</string>
+    <string name="toggle_online_btn">الوضع المتصل</string>
+    <string name="free_banner_title">تطبيق مجاني 100% للمطورين</string>
+    <string name="free_banner_desc">بدون اشتراكات، بدون إعلانات، ويعمل بدون إنترنت. جميع الأدوات مفتوحة بالكامل.</string>
+    <string name="btn_apk_exe">تصدير APK / EXE</string>
+</resources>

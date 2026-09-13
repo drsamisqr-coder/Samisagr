@@ -1,0 +1,7 @@
+{
+  "name": "MasterCoder",
+  "description": "Professional AI coding assistant, interactive code playground, developer snippets library, and programming tutor with Arabic & English support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">MasterCoder</string>
+    <string name="app_subtitle">AI Studio • Terminal &amp; Dev</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_assistant">Assistant</string>
+    <string name="nav_playground">Playground</string>
+    <string name="nav_snippets">Snippets</string>
+    <string name="nav_academy">Academy</string>
+
+    <!-- Language & Localization -->
+    <string name="language_switch">Language</string>
+    <string name="language_arabic">العربية (Arabic)</string>
+    <string name="language_english">English (الإنجليزية)</string>
+    <string name="language_dialog_title">Select App Language / اختر لغة التطبيق</string>
+
+    <!-- Settings -->
+    <string name="settings_title">MasterCoder Settings</string>
+    <string name="settings_desc">Configure your Gemini API key and AI parameters:</string>
+    <string name="api_key_label">Gemini API Key</string>
+    <string name="api_key_placeholder">AIzaSy...</string>
+    <string name="api_key_save">Save &amp; Apply</string>
+    <string name="engine_info_title">Engine Info:</string>
+    <string name="engine_info_details">• Model: gemini-3.5-flash\n• Runtime: Kotlin Compose + Room DB\n• Execution: Live Sandboxed Engine</string>
+    <string name="settings_saved">Settings saved successfully</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+
+    <!-- Assistant Screen -->
+    <string name="mode_general">Full-Stack Dev</string>
+    <string name="mode_debugger">Bug Hunter</string>
+    <string name="mode_explainer">Code Explainer</string>
+    <string name="mode_optimizer">Performance</string>
+    <string name="mode_interview">Algo &amp; Interview</string>
+    <string name="quick_prompts_title">Quick developer prompts:</string>
+    <string name="chat_input_placeholder">Ask MasterCoder or paste code...</string>
+    <string name="chat_ai_generating">MasterCoder is crafting solution...</string>
+    <string name="chat_cleared">Conversation cleared. What shall we build or solve next?</string>
+    <string name="chat_welcome">Hello! I am MasterCoder, your senior AI pair programmer. Ask me to write code, debug errors, explain algorithms, or optimize performance.</string>
+    <string name="copied_to_clipboard">Code copied to clipboard</string>
+    <string name="opened_in_playground">Opened in Playground</string>
+    <string name="saved_to_snippets">Saved to Snippets library</string>
+    <string name="assistant_sender_title">MasterCoder</string>
+
+    <!-- Playground Screen -->
+    <string name="tab_editor">Code Editor</string>
+    <string name="tab_output">Terminal Output</string>
+    <string name="btn_execute">Execute Code</string>
+    <string name="btn_ai_debug">AI Debug &amp; Fix</string>
+    <string name="btn_ai_explain">AI Explain Logic</string>
+    <string name="btn_ai_optimize">AI Optimize</string>
+    <string name="console_output_title">Execution Output</string>
+    <string name="html_preview_title">Live HTML/CSS Web Preview:</string>
+    <string name="execution_idle">Click \'Execute Code\' below to run this script.</string>
+    <string name="clear_code">Clear Code</string>
+
+    <!-- Snippets Screen -->
+    <string name="snippets_search_hint">Search snippets by name, code or tag...</string>
+    <string name="snippets_empty">No code snippets found</string>
+    <string name="filter_all">All</string>
+    <string name="add_snippet_title">Add New Code Snippet</string>
+    <string name="snippet_title_label">Snippet Title</string>
+    <string name="snippet_lang_label">Language (Kotlin, Python, JS...)</string>
+    <string name="snippet_tags_label">Tags (comma separated)</string>
+    <string name="snippet_code_label">Source Code</string>
+    <string name="snippet_save_btn">Save Code</string>
+    <string name="snippet_saved_success">Snippet saved successfully</string>
+
+    <!-- Academy Screen -->
+    <string name="rank_master">Master Coder 🏆</string>
+    <string name="rank_staff">Staff Engineer</string>
+    <string name="rank_senior">Senior Engineer</string>
+    <string name="rank_mid">Mid-Level Developer</string>
+    <string name="rank_junior">Junior Developer</string>
+    <string name="xp_format">%1$d Total Developer XP</string>
+    <string name="streak_format">%1$d Day Streak</string>
+    <string name="challenges_completed_format">Challenges Completed: %1$d</string>
+    <string name="next_level_xp">Next Level: 250 XP</string>
+    <string name="quiz_confirm_answer">Confirm Answer</string>
+    <string name="quiz_next_challenge">Next Challenge</string>
+    <string name="quiz_correct_title">Correct Answer! 🎯</string>
+    <string name="quiz_incorrect_title">Incorrect! See rationale 👇</string>
+
+    <!-- Offline & Free Mode -->
+    <string name="badge_free_offline">100% Free • Works Offline</string>
+    <string name="offline_mode_title">Offline Mode</string>
+    <string name="offline_active_desc">Offline Mode Active (0ms Latency, No Internet needed)</string>
+    <string name="online_active_desc">Online Mode (Gemini AI + Built-in Local Fallback)</string>
+    <string name="toggle_offline_btn">Offline Mode</string>
+    <string name="toggle_online_btn">Online Mode</string>
+    <string name="free_banner_title">100% Free &amp; Open Developer Toolkit</string>
+    <string name="free_banner_desc">No subscription, no ads, no internet required. All features unlocked.</string>
+    <string name="btn_apk_exe">APK / EXE</string>
+</resources>
